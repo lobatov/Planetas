@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+}
+
+body {
+    background-image: url(ImagenesPlanetas/galaxia.jpg);
+    background-size: auto;
+}   
+
+
+html {
+    font: size 60%;
+    font-family: 'Chewy', sans-serif;
+}
+
+.lista-planetas {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    padding:5px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo {
+    background-color: darkcyan;
+    font-size: 2rem;
+    width:18rem;
+    border-radius: 0.5rem;
+    position: relative;
+    top: 4rem;
+}
+
+.titulo h2 {
+    display:flex;
+    justify-content: center;
+}
+
+.planeta {
+    widht:350px;
+    height:550px;
+    font-size: 13px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-between;
+    padding-bottom:15px;
+    border-radius: 0.9rem;
+
+}
+
+img {
+    width: 15rems;
+    height:15rems;
+}
+
+
+    /*Colores de los planetas*/
+#mercurio {
+    background-color: rgb(52, 61, 64);
+    color: #ffffff;
+
+  }
+  ​
+#mercurio-t {
+    background-color: rgb(108, 118, 121);
+  }
+  
+}
