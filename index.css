@@ -1,26 +1,26 @@
 * {
     box-sizing: border-box;
-    padding: 10px;
-    margin: 10px;
+    padding: 5px;
+    margin: 5px;
 }
 
 body {
     background-image: url(ImagenesPlanetas/galaxia.jpg);
-    background-size: auto;
+    
 }   
 
 
 html {
     font: size 60%;
-    font-family: 'Chewy', sans-serif;
+    font-family: fantasy; 
 }
-
+    
 .lista-planetas {
     display:flex;
     flex-direction:row;
     justify-content:space-evenly;
     flex-wrap:wrap;
-    padding:5px;
+    padding:1rem;
 }
 
 .contenedor {
@@ -30,12 +30,11 @@ html {
 }
 
 .titulo {
-    background-color: darkcyan;
     font-size: 2rem;
-    width:18rem;
-    border-radius: 0.5rem;
+    width:13rem;
+    border-radius: 1.0rem;
     position: relative;
-    top: 4rem;
+    top: 1.5rem;
 }
 
 .titulo h2 {
@@ -44,33 +43,104 @@ html {
 }
 
 .planeta {
-    widht:350px;
-    height:550px;
-    font-size: 13px;
+    width:450px;
+    height: 700px;
+    font-size: 18px;
     display:flex;
     flex-direction: column;
-    align-items:center;
-    justify-content:space-between;
-    padding-bottom:15px;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom:5px;
     border-radius: 0.9rem;
+    font-family: Lucida Sans;
 
 }
 
-img {
+imagenesPlanetas {
     width: 15rems;
     height:15rems;
 }
 
 
     /*Colores de los planetas*/
-#mercurio {
-    background-color: rgb(52, 61, 64);
-    color: #ffffff;
 
-  }
-  ​
 #mercurio-t {
-    background-color: rgb(108, 118, 121);
+        background-color: lightgrey;
+}
+
+#mercurio {
+    background-color: darkgrey; 
+    color: black;
   }
+
+  #venus {
+    background-color: rgb(172,93,0);
+  }
+
+  #venus-t {
+    background-color: rgb(228, 196, 20);
+  }
+
+#tierra-t{
+    background-color: cyan;
+}
   
+#tierra{
+    background-color: chartreuse;
+}
+
+.imgtierra{
+    border-radius: 50%;
+}
+
+#marte-t{
+    background-color: gold;
+}
+  
+#marte{
+    background-color: crimson;
+}
+
+#jupiter-t{
+    background-color: orangered;
+}
+  
+#jupiter{
+    background-color: chocolate;
+}
+
+#saturno-t{
+    background-color: rgb(172, 128, 19);
+}
+  
+#saturno{
+    background-color: rgb(14, 218, 218);
+}
+
+.imgsaturno{
+    border-radius: 70%;
+}
+
+#urano-t{
+    background-color: lightgreen;
+}
+  
+#urano{
+    background-color: mediumaquamarine;
+}
+
+.imgurano{
+    border-radius: 80%;
+}
+
+#neptuno-t{
+    background-color: blue;
+}
+  
+#neptuno{
+    background-color: dodgerblue;
+}
+
+.imgneptuno{
+    border-radius: 80%;
 }
